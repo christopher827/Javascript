@@ -10,7 +10,7 @@ html,body{
  #inputField{
     width: 300px;
     height: 46px;
-    border: 1px solid black;
+    border: 1px solid #000000;
     outline: none;
     font-style: 25px;
     vertical-align: middle;
