@@ -11,7 +11,7 @@ btn.addEventListener("click", () => {
             console.log(data);
             result.innerHTML = `
             <div class="word">
-                    <h3>${inpWord}</h3>
+                    <h3>${inpWor}</h3>
                     <button onclick="playSound()">
                         <i class="fas fa-volume-up"></i>
                     </button>
@@ -29,7 +29,7 @@ btn.addEventListener("click", () => {
             sound.setAttribute("src", `https:${data[0].phonetics[0].audio}`);
         })
         .catch(() => {
-            result.innerHTML = `<h3 class="error">Couldn't Find Such word Word</h3>`;
+            result.innerHTML = `<h3 class="error">Couldn't Find The word Word</h3>`;
         });
 });
 function playSound() {
