@@ -1,4 +1,4 @@
-let addToDoButton=document.getElementById('addToDo');
+const addToDoButton=document.getElementById('addToDo');
 let toDoContainer=document.getElementById('toDoContainer');
 let inputField=document.getElementById('inputField');
 
