@@ -35,7 +35,7 @@
     color: white;
 }
 .button:hover{
-    color: white;
+    color: #fff;
     background-color: black;
     transition: 0.5s,ease-in-out;
 }
